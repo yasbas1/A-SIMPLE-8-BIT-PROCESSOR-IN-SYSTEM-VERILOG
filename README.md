@@ -8,7 +8,7 @@ of the following four main components:
 -A Read-Only Instruction Memory (IMEM)
 -A Read/Write Data Memory (DMEM)
 
-##Instruction Set and Format :
+## Instruction Set and Format :
 
 Your processor should implement the following basic instruction set:
 
