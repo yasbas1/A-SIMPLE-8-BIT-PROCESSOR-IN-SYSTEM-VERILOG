@@ -3,10 +3,10 @@
 The objective of this project is to design a simple microprocessor with a custom instruction set. The processor should consist 
 of the following four main components:
 
--A register file
--An Arithmetic and Logic Unit (ALU)
--A Read-Only Instruction Memory (IMEM)
--A Read/Write Data Memory (DMEM)
+- A register file
+- An Arithmetic and Logic Unit (ALU)
+- A Read-Only Instruction Memory (IMEM)
+- A Read/Write Data Memory (DMEM)
 
 ## Instruction Set and Format :
 
@@ -40,11 +40,11 @@ The program code is stored as 16-bit instructions in the IMEM. The processor imp
 
 Data Path Components:
 
--Program Counter: One 8-bit register
--Register File: Holds 8-bit 8 register
--Instruction Memory: 8-bit address input, and outputs 16-bit
--Data Memory: 8-bit read/write memory
--ALU: Performs arithmetic and logical operations
+- Program Counter: One 8-bit register
+- Register File: Holds 8-bit 8 register
+- Instruction Memory: 8-bit address input, and outputs 16-bit
+- Data Memory: 8-bit read/write memory
+- ALU: Performs arithmetic and logical operations
 
 Control Unit: Generates necessary signals to the data-path. Check single-cycle ARM processor design in the lecture slides to 
 design the signals and implement the control unit.
